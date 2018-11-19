@@ -13,10 +13,23 @@ Requirements:
 
 Planned Features:
 - Monitor and Maintain IP list
-- Method to add new entry
-    - Via web interface
-    - Powershell Commandlet
-    - * possible thick client
-- Method to remove entry
+    - Monitor IP usage
+        - Via ICMP
+        - Via ARP Tables
+    - Monitor DNS
+        - Alert on missing entries
+        - Matchup IPs and DNS entries
+            - Alert on mismatches and duplicates
 - Method to request IP
+    - Via web interface
+    - Via PowerShell commandlet
+- Method to add new entry (Legacy method to assign IPs, preferred method will be to request an IP.)
+    - Via web interface
+    - PowerShell Commandlet
+    - Possible thick client (Will be a late addition if even implemented)
+- Method to remove entry
+    - Via web interface
+    - Via PowerShell commandlet
 - Method to report on IP usage
+    - Via web interface
+    - SSRS?
