@@ -9,6 +9,14 @@ Requirements:
 - Primary application will run at all times on a dedicated server
 - Changes to tracked IPs will happen manually by user intervention, or automatically by a "Maintenance Service"
 - IP address data will be stored in a SQL DB
+- Configuration to be stored in a config file/DB
 
 Planned Features:
-- 
+- Monitor and Maintain IP list
+- Method to add new entry
+    - Via web interface
+    - Powershell Commandlet
+    - * possible thick client
+- Method to remove entry
+- Method to request IP
+- Method to report on IP usage
