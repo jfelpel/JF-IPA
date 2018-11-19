@@ -33,3 +33,9 @@ Planned Features:
 - Method to report on IP usage
     - Via web interface
     - SSRS?
+
+SQL DB - High Level - Tables
+- IP-Addresses
+- DNS-Entries
+- IP-Owner-Information
+- Configuraiton
