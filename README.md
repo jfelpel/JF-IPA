@@ -21,15 +21,14 @@ Planned Features:
         - Matchup IPs and DNS entries
             - Alert on mismatches and duplicates
 - Method to request IP
-    - Via web interface
     - Via PowerShell commandlet
+    - Build web request form from PS Commandlets
 - Method to add new entry (Legacy method to assign IPs, preferred method will be to request an IP.)
-    - Via web interface
     - PowerShell Commandlet
-    - Possible thick client (Will be a late addition if even implemented)
+    - Via web interface, build off of PS commandlet
 - Method to remove entry
-    - Via web interface
     - Via PowerShell commandlet
+    - Build web removal form from PS Commandlets
 - Method to report on IP usage
     - Via web interface
     - SSRS?
