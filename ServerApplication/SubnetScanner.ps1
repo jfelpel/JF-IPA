@@ -13,7 +13,7 @@ Param(
     # Parameter help description
     [Parameter(Mandatory=$true)]
     [int]
-    $ParameterName
+    $Netmask
 )
 
 Write-Host $Subnet
